@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+/*----------------------------                header    ----------------------------            */
+
+.header {
+  top: 0;
+  position: fixed;
+  background-color: gray;
+  width: 100%;
+  height: 5rem;
+  overflow: auto;
+}
+.header p {
+  text-align: center;
+  color: white;
+  line-height: 5rem;
+  font-size: 2rem;
+}
+.header ul {
+  display: inline-block;
+  list-style: none;
+}
+.header ul li {
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+.header ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0px;
+  /* font-size: 2rem; */
+  text-transform: uppercase;
+}
+.header ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+/*----------------------------                banner    ----------------------------            */
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.banner {
+  background-image: url("../assets/desktop.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner p {
+  text-align: left;
+  line-height: 30vh;
+  color: white;
+  font-size: 5rem;
+}
+
+/*    ----------------------------            Team Members     ----------------------------            */
+
+.sec1 , .sec2 , .section3 , .sec4{
+  margin-top: 90px;
+}
+.sec1 h3,
+.sec2 h3,
+.sec4 h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.circle {
+  display: inline-flex;
+  width: 100%;
+  height: 320px;
+}
+.c1,
+.c2,
+.c3,
+.c4 {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+}
+.c1,
+.c3{
+    background-image: url("../assets/profile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c2,
+.c4{
+    background-image: url("../assets/profile1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*    ----------------------------            About Us     ----------------------------            */
+
+.sec2 {
+  width: 100%;
+}
+.divide {
+  margin-top: 20px;
+  display: inline-flex;
+  width: 100%;
+  height: 80vh;
+}
+.left p {
+    color: white;
+    font-size: 1rem;
+  }
+.left {
+  width: 50%;
+  background-color: gray;
+}
+.right {
+  width: 48%;
+  float: right;
+  margin: 0 auto;
+  justify-content: center;
+}
+.a1,
+.a2,
+.a3 {
+  height: 30%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  overflow: hidden;
+  font-weight: bold;
+}
+.a1{
+    background-image: url("../assets/pro1.png");
+    background-position: center;
+    background-size: cover;
+}
+.a2{
+    background-image: url("../assets/pro2.png");
+    background-position: center;
+    background-size: cover;
+}
+.a3{
+    background-image: url("../assets/pro3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*    ----------------------------            Technologies Used    ----------------------------            */
+
+
+.sechead h3 {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.sec3 {
+  display: inline-flex;
+  height: 25rem;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+.box a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid blck;
+    border-radius: 7px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 1rem auto;
+}
+.box a:hover{
+    background-color: blue;
+    color: white;
+}
+.box img{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 10rem;
+}
+.box h3{
+    text-align: center;
+    padding: 1rem;
+}
+.box h1{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.box{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 1rem;
+    width: 18.5rem;
+    height: 24rem;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+/*    ----------------------------            Contact    ----------------------------            */
+
+.sec4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  height: 5rem;
+}
+.footer {
+  background-color: violet;
+  
+}
+.footer p {
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1rem;
+  color: white;
+}

@@ -120,10 +120,10 @@
 .sec4 {
   margin-top: 20px;
   margin-bottom: 0;
+  height: 5rem;
 }
 .footer {
   background-color: violet;
-  height: 4rem;
 }
 .footer p {
   text-align: center;
