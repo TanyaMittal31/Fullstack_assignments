@@ -110,8 +110,11 @@ i{
 .hide-btn{
     opacity: 0;
 }
-.chk{
-    opacity: 0;
+#chk
+{
+    position: absolute;
+    visibility: hidden;
+    z-index: -100;
 }
 #chk:checked ~ .sidebar{
     left: 0;
@@ -124,7 +127,7 @@ i{
 }
 
 #chk:checked ~ .content{
-    width: 80%;
+    width: 70%;
 }
 
 @media(max-width: 768px){
