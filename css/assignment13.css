@@ -1,9 +1,7 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
-body{
-    /* background-color: #a3f5ff; */
-}
+
 
 .container{
     height: 100vh;
@@ -12,11 +10,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.table{
-    /* padding: 100px; */
-    /* border-right: 2px solid white;
-    border-left: 2px solid white; */
-}
+
 table ,th ,td{
     text-align: center;
     border-right: 2px solid white;
