@@ -19,7 +19,7 @@
       <span
         ><i class="fa fa-minus-square-o" aria-hidden="true" onclick="sub()"></i
       ></span>
-      <span><p id="count"></p></span>
+      <span id="none"><p id="count"></p></span>
       <span
         ><i class="fa fa-plus-square-o" aria-hidden="true" onclick="add()"></i
       ></span>
@@ -28,18 +28,22 @@
     <script>
       var x = document.getElementById("count");
       var count = 0;
-      document.getElementById("count").innerText = count;
+      x.innerText = count;
       function add() {
         count = count + 1;
-        document.getElementById("count").innerText = count;
+        if(count>=0){
+          document.getElementById("none").style.opacity = 1;
+        }
+        x.innerText = count;
       }
 
       function sub() {
         count = count - 1;
-        document.getElementById("count").innerText = count;
-      }
-
-      if (x == 0) {
+        if (count < 0) {
+          document.getElementById("none").style.opacity = 0;
+          count = -1;
+        }
+        x.innerText = count;
       }
     </script>
   </body>
